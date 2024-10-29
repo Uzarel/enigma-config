@@ -698,6 +698,6 @@ sudo apt install -y unattended-upgrades
 
   - [x2go Official Documentation](https://wiki.x2go.org/doku.php)
 
----
+- **Remote Development using SSH:**
 
-**Feel free to reach out if you have any questions or need further assistance with any of the steps!**
+  - [Visual Studio Code Remote-SSH](https://code.visualstudio.com/docs/remote/ssh)
