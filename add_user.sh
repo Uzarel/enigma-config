@@ -93,7 +93,7 @@ if id -u "${NEW_USER}" >/dev/null 2>&1; then
 fi
 
 # Add new user
-adduser --home "/home/${NEW_USER}"
+adduser --home "/home/${NEW_USER}" "${NEW_USER}"
 NEW_UID=$(id -u "${NEW_USER}")
 
 # Add new user to sudoers
